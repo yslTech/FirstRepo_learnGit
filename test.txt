@@ -5,4 +5,6 @@ This is my second time to change this file and i am not so clear about Vim. I do
 This is the 3rd time I change this file, to test Command: git diff --cached
 
 git commit -a
-	To combine commands git add and git commit
+	To combine commands git add and git commit 
+git commit -am
+	It is equal to git commit -a -m ...
