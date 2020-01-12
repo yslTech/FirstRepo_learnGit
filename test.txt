@@ -3,3 +3,6 @@ This is a test file for GIT learning.
 This is my second time to change this file and i am not so clear about Vim. I do this for command: git resore <filename> to discard the local changes to the file.
 
 This is the 3rd time I change this file, to test Command: git diff --cached
+
+git commit -a
+	To combine commands git add and git commit
