@@ -1,0 +1,14 @@
+1. 先在本地文件夹下创建一个仓库： 在本地文件夹打开git bash:
+	git init ->这样便使得该文件夹称为一个repo
+	创建一个README.md文件放在此文件夹中，内容自己定义。
+	
+2. 在github 创建一个repo, 比如名叫 FirstRepo_learnGit, 创建之后github会给出该Repo的URL，为https://github.com/yslTech/FirstRepo_learnGit.git
+
+3. 将本地repo和github远程关联。在git bash中执行命令： git remote add origin https://github.com/yslTech/FirstRepo_learnGit.git
+这时本地的.git/config文件中也会将该远程repo的URL记录。这样我们向远程提交内容时就知道向哪里提交了。
+
+4. 将本地的文件添加到缓存： git add README.md
+
+5.  将本地文件commit到本地repo：git commit -m "This commit is to learn how to connect local Repo and remote Repo, and push files to remote."
+
+6. 将本地已经commit的内容push到远程Repo： git push
